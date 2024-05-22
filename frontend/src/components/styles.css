@@ -1,0 +1,105 @@
+/* Estilos básicos para a aplicação */
+body {
+  font-family: Arial, sans-serif;
+  display: grid;
+  flex-direction:row;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  padding: 40px;
+}
+
+.header {
+  background-color: #2196F3;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.card-wall {
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.completed {
+  opacity: 0.5;
+}
+
+.active {
+  border: 2px solid #2196F3;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 0.25px solid;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.btn-submit, .btn-back {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-back {
+  background-color: #f44336;
+}
+
+.btn-submit:hover, .btn-back:hover {
+  opacity: 0.8;
+}
+
+.error_message {
+  color: rgb(2, 2, 2);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.message_body {
+  margin-bottom: 20px;
+}
+
+.btn-ok {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
